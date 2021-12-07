@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.left_nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.right_nav li {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.nav_svg {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+.nav_svg:hover{
+  background-color: #9aa0a6;
+ 
+}
+.nav_avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  border-radius: 100%;
+}
+nav a,
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+li a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: transparent;
+}
+
+.logo {
+  display: flex;
+  margin: 100px auto 0;
+}
+
+#searchpanel {
+  width: 480px;
+  height: auto;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 14px;
+  outline: none;
+  position: absolute;
+  top: 12px;
+  left: 40px;
+
+}
+#searchpanel:active {
+  border: none;
+}
+.srcpnl {
+  margin-bottom: 10px;
+}
+.search {
+  width: 550px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  margin: 30px auto;
+  position:relative
+}
+.src {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #9aa0a6;
+  fill: currentColor;
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+.voice {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+ 
+}
+.search:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-group {
+  text-align: center;
+}
+
+button {
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  font-family: Arial;
+  font-size: 14px;
+  margin-left: 15px;
+  color: #5f6368;
+  padding: 10px;
+}
+button:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left_footer li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.right_footer li {
+  display: inline-block;
+  margin-right: 15px;
+}
+footer {
+  border-radius: 1px;
+  border-color: black;
+  height: 40px;
+  margin-top: 270px;
+  background-color: #f2f2f2;
+  color: #70757a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  line-height: 40px;
+  font-family: Arial;
+  font-weight:bolder;
+}
+footer a{
+  color: #5f6368; 
+}
